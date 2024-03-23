@@ -13,7 +13,7 @@ Space exploration has always been a fascinating and challenging endeavor which I
 
 ### Data Source
 
-The data set includes all space missions from 1957 to August 2022, including details on the location, date, and result of the launch, the company responsible, and the name, price, and status of the rocket used for the mission.. The file will be added as "space_missions.csv". 
+The data set includes all space missions from 1957 to August 2022, including details on the location, date, and result of the launch, the company responsible, and the name, price, and status of the rocket used for the mission. The file will be added as "space_missions.csv". 
 
 ### Objectives
 
@@ -60,43 +60,7 @@ We'll create a variety of charts and visualizations to present the data effectiv
 
 
 
-
 <br/><br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1. How have rocket launches trended across time? Has mission success rate increased?
-    
-2. Which countries have had the most successful space missions? Has it always been that way?
-    
-3. Which rocket has been used for the most space missions? Is it still active?
-    
-4. Are there any patterns you can notice with the launch locations?
 
 <br/><br/>
 
@@ -295,63 +259,169 @@ SuccessRatePercentage = DIVIDE([SuccessfulMissions],[TotalMissions],0)
 
 
 
+ #### Page 1: Home
+   
+1. Mission Amount by Rocket/Country/Company Stacked Bar Chart:
 
+ - Provides an overview of mission distribution across rockets, countries, companies, and years, allowing for comparison of mission volumes across different dimensions.
 
+2. Missions by Year Area Chart:
 
+ - Illustrates the trend of mission counts over time, highlighting fluctuations and patterns in mission launches across different years.
+
+<br/><br/>
+
+#### Page 2: Successful Missions and Mission Status
+
+1. Successful Missions by Country/Launch Center/Company Stacked Bar Chart:
+
+ - Showcases the distribution of successful missions across countries, launch centers, and companies, providing insights into the entities with the highest success rates.
+
+2. Success Rate by Country Stacked Bar Chart:
+
+ - Visualizes the success rates of missions by country, allowing for comparison of success rates among different nations.
+
+3. Mission Status Percentage Pie Chart:
+
+ - Presents the distribution of mission statuses (Success, Failure, Partial Failure, Prelaunch Failure) as a percentage, offering insights into overall mission outcomes.
+
+<br/><br/>
+
+#### Page 3: Price Related Charts
+
+1. Total Cost by Year Area Chart:
+
+ - Depicts the total cost of missions over time, enabling analysis of expenditure trends and budget allocations across various years.
+
+2. Average Price by Country/Rocket/Company Stacked Bar Chart:
+
+ - Presents the average prices of missions categorized by country, rocket, and company, allowing for in-depth analysis of pricing trends across various dimensions.
+
+3. Mission by Rocket Status Pie Chart:
+
+ - Represents the distribution of missions based on rocket status (Active or Inactive), offering insights into the utilization of rocket fleets.
+
+#### Additional Insights:
+
+ - Cards with Success Rate, Total Missions, Countries Involved, and Average Rocket Price:
+Provides at-a-glance metrics summarizing key insights, including overall success rate, total missions, countries involved, and average rocket price.
+
+####Navigation:
+ - Date Slicer and Buttons for Easy Access:
+Incorporates a date slicer on every page to facilitate filtering by specific time periods. Additionally, buttons are provided for seamless navigation between pages, enhancing user experience and accessibility.
 
 
 <br/><br/>
 
-
+<br/><br/>
 
 <br/><br/>
+
 
 ## Dashboard image:
-
-
-
+<br/><br/>
+![image](https://github.com/DiogoGravanita/Space-Missions-SQL-PowerBI-Project/assets/163042130/2aa3a974-736e-4b86-b0b8-c1f659eac659)
+<br/><br/>
+![image](https://github.com/DiogoGravanita/Space-Missions-SQL-PowerBI-Project/assets/163042130/520d234a-11f2-43f4-8b3b-cd4f69478b23)
+<br/><br/>
+![image](https://github.com/DiogoGravanita/Space-Missions-SQL-PowerBI-Project/assets/163042130/56303984-46d6-493b-b721-83742149028e)
 
 
 <br/><br/>
 <br/><br/>
-## Results/findings
+# Results/findings
 <br/><br/>
 
 
-### Trends in Sale Prices Over Time:
+## Key Performance Indicators (KPIs)
 
 
-<br/><br/>
-
-### Correlation Between Property Size (Acreage) and Sale Price:
 
 
-<br/><br/>
-
-### Distribution of Housing Types Based on Land Use:
-
-<br/><br/>
-
-### Total Property Value Over the Years:
-
-<br/><br/>
-
-### Patterns in Housing Characteristics:
+1. Total Missions: 5000
+2. Mission Success Rate: 89,89%
+3. Average Mission Cost: 128.3 Million €
+4. Countries Involved: 22
 
 
 <br/><br/>
 
-### Average Sale Price of Properties in Nashville:
+
+## Charts and Visualizations Findings:
+
+<br/><br/>
+### Mission Amount by Rocket/Country/Company/Year:
+
+The analysis reveals that space missions are predominantly led by the United States and Russia, with Kazakhstan being a significant contributor as well. Notably, the Cosmos-3M rocket, often associated with RVSN USSR, stands out as the most frequently used rocket in these missions.
 
 <br/><br/>
 
-### Properties Sold as Vacant:
+### Average Price by Company:
 
+Among the companies involved in space missions, NASA emerges as the top spender, investing significantly higher than its counterparts like Boeing, ULA, and Arianespace. This underscores NASA's commitment to pioneering space exploration efforts.
 
 <br/><br/>
 
-### Other Trends in the Data:
+### Missions by Year:
+
+The data illustrates a distinct trend in space mission activity over the years. From a surge in missions during the mid-60s to late 70s, a decline until the mid-2010s, and a subsequent resurgence, it's evident that space exploration has witnessed dynamic shifts in mission frequency over time.
+
+<br/><br/>
+
+### Successful Missions by Country/Launch Center/Company:
+
+The analysis highlights the success rates of space missions across various countries, launch centers, and companies. Russia and the USA lead in successful missions, with the Plesetsk Cosmodrome serving as a pivotal launch center. RVSN USSR emerges as the company with the highest success rate, indicating robust mission planning and execution.
+
+<br/><br/>
+
+### Success Rate by Country:
+
+France, surprisingly, boasts the highest success rate among countries involved in space missions, closely followed by Russia, China, and Japan. This suggests meticulous planning and stringent quality control measures in the space programs of these nations.
+
+<br/><br/>
+
+### Mission Status Percentage:
+
+The distribution of mission statuses provides valuable insights into the outcomes of space missions. While successes dominate the majority, a notable percentage represents failures, partial failures, and prelaunch failures, emphasizing the inherent risks and complexities associated with space exploration endeavors.
+
+<br/><br/>
+
+### Average Price by Country/Rocket/Company:
+
+Analysis of average mission costs by country, rocket type, and company sheds light on the financial investments in space missions. The USA and Kazakhstan lead in average mission costs, with certain rocket types such as Energiya/Buran commanding substantial expenses. Additionally, NASA emerges as the top spender among companies, indicating its significant financial contributions to space exploration.
+
+<br/><br/>
+
+### Total Cost by Year:
+
+The total costs incurred in space missions exhibit an upward trajectory over the years, indicating a growing investment in space exploration endeavors. Significant spikes in costs during specific years underscore major milestones or ambitious projects undertaken during those periods.
+<br/><br/>
+
+### Mission by Rocket Status:
+
+The distribution of rockets by status reveals that a majority are retired, reflecting the evolution and turnover of space exploration technologies. However, a notable portion remains active, indicating ongoing missions and the utilization of modern rocket systems in contemporary space endeavors.
 
 <br/><br/>
 
 ## Conclusion:
+
+The analysis of space mission data provides invaluable insights into the evolution, trends, and dynamics of space exploration efforts over the years. Through comprehensive data processing, visualization, and interpretation, several key findings have emerged, shaping our understanding of the space industry landscape.
+
+The exploration of mission trends reveals distinct patterns in mission frequency, success rates, and financial investments. Notably, the dominance of the United States and Russia in space missions underscores their longstanding contributions and leadership in the field. Furthermore, the resurgence of space missions in recent years highlights renewed interest and investments in space exploration, driving innovation and technological advancements.
+
+The analysis also sheds light on the financial aspects of space missions, with NASA emerging as a major financial contributor, reflecting its commitment to pioneering space exploration endeavors. Additionally, the distribution of mission costs by country, rocket type, and company underscores the significant investments required to execute successful space missions, highlighting the collaborative efforts of nations and organizations worldwide.
+
+Moreover, the exploration of mission success rates by country and company underscores the importance of meticulous planning, rigorous quality control measures, and innovative technologies in ensuring mission success. While successes dominate the majority of missions, the presence of failures and partial failures underscores the inherent risks and challenges associated with space exploration, emphasizing the need for continuous improvement and resilience in the face of adversity.
+
+Overall, the comprehensive analysis of space mission data provides valuable insights for policymakers, researchers, and space enthusiasts alike, guiding future endeavors and shaping the trajectory of space exploration in the years to come. As humanity continues to push the boundaries of exploration and discovery, the data-driven insights gleaned from this project serve as a foundation for informed decision-making and strategic planning in the pursuit of knowledge and discovery beyond Earth's atmosphere.
+
+
+
+Notes: The following graphs were filtered given that there were atleast 5 entries in which we had rocket prices for them so that we could get a more accurate estimation of the values and not have spiked values due to too little data to create an accurate average:
+
+Average price by company
+Average price by Country
+
+
+Also the Success Rate by country graph has a minimum of 10 Total missions completed per country rule so that, once again we can accurately estimate the actual best performers.
+
