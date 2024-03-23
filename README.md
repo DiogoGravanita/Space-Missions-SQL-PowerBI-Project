@@ -306,7 +306,7 @@ SuccessRatePercentage = DIVIDE([SuccessfulMissions],[TotalMissions],0)
  - Cards with Success Rate, Total Missions, Countries Involved, and Average Rocket Price:
 Provides at-a-glance metrics summarizing key insights, including overall success rate, total missions, countries involved, and average rocket price.
 
-####Navigation:
+#### Navigation:
  - Date Slicer and Buttons for Easy Access:
 Incorporates a date slicer on every page to facilitate filtering by specific time periods. Additionally, buttons are provided for seamless navigation between pages, enhancing user experience and accessibility.
 
@@ -415,7 +415,8 @@ Moreover, the exploration of mission success rates by country and company unders
 
 Overall, the comprehensive analysis of space mission data provides valuable insights for policymakers, researchers, and space enthusiasts alike, guiding future endeavors and shaping the trajectory of space exploration in the years to come. As humanity continues to push the boundaries of exploration and discovery, the data-driven insights gleaned from this project serve as a foundation for informed decision-making and strategic planning in the pursuit of knowledge and discovery beyond Earth's atmosphere.
 
-
+<br/><br/><br/><br/>
+<br/><br/>
 
 Notes: The following graphs were filtered given that there were atleast 5 entries in which we had rocket prices for them so that we could get a more accurate estimation of the values and not have spiked values due to too little data to create an accurate average:
 
