@@ -322,7 +322,7 @@ Incorporates a date slicer on every page to facilitate filtering by specific tim
 <br/><br/>
 ![image](https://github.com/DiogoGravanita/Space-Missions-SQL-PowerBI-Project/assets/163042130/2aa3a974-736e-4b86-b0b8-c1f659eac659)
 <br/><br/>
-![image](https://github.com/DiogoGravanita/Space-Missions-SQL-PowerBI-Project/assets/163042130/520d234a-11f2-43f4-8b3b-cd4f69478b23)
+![image](https://github.com/DiogoGravanita/Space-Missions-SQL-PowerBI-Project/assets/163042130/67070820-23af-4f89-9542-569a345fb8fe)
 <br/><br/>
 ![image](https://github.com/DiogoGravanita/Space-Missions-SQL-PowerBI-Project/assets/163042130/56303984-46d6-493b-b721-83742149028e)
 
