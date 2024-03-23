@@ -421,6 +421,8 @@ Overall, the comprehensive analysis of space mission data provides valuable insi
 Notes: The following graphs were filtered given that there were atleast 5 entries in which we had rocket prices for them so that we could get a more accurate estimation of the values and not have spiked values due to too little data to create an accurate average:
 
 Average price by company
+
+
 Average price by Country
 
 
